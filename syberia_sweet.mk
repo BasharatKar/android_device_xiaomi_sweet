@@ -5,22 +5,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common xtended configurations
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit common syberia configurations
+$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
 
-PRODUCT_NAME := xtended_sweet
+PRODUCT_NAME := syberia_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-#GAPPS
-WITH_GAPPS := true
-
-#Xtra Gapps
-TARGET_INCLUDE_EXTRA_GAPPS := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
