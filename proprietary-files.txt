@@ -1381,7 +1381,6 @@ vendor/lib/hw/consumerir.default.so
 vendor/lib/hw/fingerprint.fortsense.so
 vendor/lib/hw/fingerprint.fpc.so
 vendor/lib/hw/lights.sm6150.so
-vendor/lib/hw/sound_trigger.primary.sm6150.so
 vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so

@@ -18,6 +18,8 @@ PRODUCT_COPY_FILES += \
 TARGET_EXCLUDES_AUDIOFX := true
 
 # Audio
+USE_SOUND_TRIGGER := false
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
