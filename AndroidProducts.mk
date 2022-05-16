@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_sweet.mk
+    $(LOCAL_DIR)/voltage_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_sweet-eng \
-    pixys_sweet-userdebug \
-    pixys_sweet-user
+    voltage_sweet-eng \
+    voltage_sweet-userdebug \
+    voltage_sweet-user

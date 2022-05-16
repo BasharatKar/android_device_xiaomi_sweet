@@ -5,10 +5,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common PixysOS configurations
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+# Inherit common Voltage OS configurations
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := pixys_sweet
+PRODUCT_NAME := voltage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
